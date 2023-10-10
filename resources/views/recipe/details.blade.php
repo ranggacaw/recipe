@@ -71,7 +71,7 @@
                                 <div class="col-4 col-md col-lg-3">
                                     <h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Ingredients</h6>
                                     <h4 class="mb-0">
-                                        {{$ingredients_coma}}
+                                        {{ $ingredients_coma }}
                                     </h4>
                                 </div>
 
