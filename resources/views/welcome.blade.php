@@ -10,24 +10,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 offset-md-2 center">
-                        <h2 class="text-title-light text-dark mb-5 ls1 text-uppercase">Hello &amp; Welcome.</h2>
-                        <p style="font-size: 17px; color: #777">I'm Ranggacaw, Authoritatively communicate world-class alignments before low-risk high-yield growth strategies. Synergistically envisioneer transparent niches after dynamic "outside the box" thinking. Uniquely  partnerships before synergistic niche markets.<br><br>Cheers to all that you do!</p>
+                        <h2 class="text-title-light text-dark mb-5 ls1 text-uppercase">Hai Sahabat F&B !</h2>
+                        <p style="font-size: 17px; color: #777">Kami adalah sekelompok pecinta makanan dan minuman yang berdedikasi untuk berbagi kelezatan dari berbagai belahan dunia. Dengan passion dan kreativitas, kami menghadirkan resep-resep yang dapat dinikmati oleh semua orang, dari pemula hingga koki berpengalaman.<br><br>Cheers to all that you do!</p>
                     </div>
                     <div class="col-12 mt-5 mb-3">
-                        <h3 class="center">Browse by Category</h3>
+                        <h3 class="center">Pilih Kategori</h3>
 
                         <div class="recipe-categories justify-content-center">
-                            <a href="recipes/recipes.html" data-animate="fadeInUp" data-delay="600" class="recipe-category" style="background-image: url('recipes/images/categories/drinks.jpg');">
+                            <a href="#" data-animate="fadeInUp" data-delay="600" class="recipe-category" style="background-image: url('recipes/images/categories/drinks.jpg');">
                                 <div class="recipe-category-inner">
-                                    <div class="recipe-category-icon"><img src="recipes/images/icons/drinks.svg" alt="Beverages"></div>
-                                    <div class="recipe-category-info">Ice</div>
+                                    <div class="recipe-category-icon"><img src="recipes/images/icons/drinks.svg" alt="Minuman Dingin"></div>
+                                    <div class="recipe-category-info">Minuman Dingin</div>
                                 </div>
                             </a>
 
-                            <a href="recipes/recipes.html" data-animate="fadeInUp" data-delay="600" class="recipe-category" style="background-image: url('recipes/images/categories/drinks.jpg');">
+                            <a href="#" data-animate="fadeInUp" data-delay="600" class="recipe-category" style="background-image: url('recipes/images/categories/hot.jpg');">
                                 <div class="recipe-category-inner">
-                                    <div class="recipe-category-icon"><img src="recipes/images/icons/drinks.svg" alt="Beverages"></div>
-                                    <div class="recipe-category-info">Hot</div>
+                                    <div class="recipe-category-icon"><img src="recipes/images/icons/menu.svg" alt="Minuman Panas"></div>
+                                    <div class="recipe-category-info">Minuman Panas</div>
+                                </div>
+                            </a>
+
+                            <a href="#" data-animate="fadeInUp" data-delay="600" class="recipe-category" style="background-image: url('recipes/images/categories/lunch.jpg');">
+                                <div class="recipe-category-inner">
+                                    <div class="recipe-category-icon"><img src="recipes/images/icons/lunch.svg" alt="Makanan"></div>
+                                    <div class="recipe-category-info">Makanan</div>
+                                </div>
+                            </a>
+
+                            <a href="#" data-animate="fadeInUp" data-delay="600" class="recipe-category" style="background-image: url('recipes/images/categories/desserts.jpg');">
+                                <div class="recipe-category-inner">
+                                    <div class="recipe-category-icon"><img src="recipes/images/icons/desserts.svg" alt="Kue"></div>
+                                    <div class="recipe-category-info">Kue</div>
                                 </div>
                             </a>
                         </div>
