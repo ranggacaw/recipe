@@ -27,10 +27,10 @@
                     <div class="row g-0">
 
                         @foreach ($recipe as $item)
-                            <div class="col-sm-4 col-6">
+                            <div class="col-sm-3 col-6">
                                 <div class="card">
                                     <div class="card-body">
-                                        <img src="{{ url('http://recipes-admin.test/img/recipe')}}/{{$item->image}}" alt="image">
+                                        <img class="w-75 d-block m-auto" src="{{ url('https://recipe-admin.ranggacaw.com/img/recipe')}}/{{$item->image}}" alt="image">
                                         <div class="d-flex justify-content-between align-items-center mt-4 mb-2">
                                             <p class="card-author">By <a href="{{ url('recipe-details') }}/{{$item->id}}">{{ $item->users->name ?? 'None' }}</a></p>
                                         </div>

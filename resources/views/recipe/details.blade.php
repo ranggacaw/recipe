@@ -3,7 +3,7 @@
 @section('content')
 <!-- Page Title
 ============================================= -->
-<section id="slider" class="slider-element dark parallax include-header" style="background: #111 url('recipes/images/recipe-single.jpg') center center / cover; padding: 230px 0;" data-0="background-position:0px -200px;" data-400="background-position:0px -100px;">
+<section id="slider" class="slider-element dark parallax include-header" style="background: #111 url({{ url('recipes/images/recipe-single.jpg')}}) center center / cover; padding: 230px 0;" data-0="background-position:0px -200px;" data-400="background-position:0px -100px;">
 
     <div class="container clearfix">
         <div class="mx-auto center" style="max-width: 800px">
@@ -12,20 +12,6 @@
         <div class="mx-auto center" style="max-width: 900px">
             <div class="slider-features" data-animate="zoomIn" data-delay="300">
                 <ul class="list-unstyled row g-0 align-items-center justify-content-center overflow-hidden col-mb-50 mt-5">
-                    {{-- <li class="col-6 col-lg text-center text-lg-start">
-                        <div class="grid-inner px-5">
-                            <img src="recipes/images/icons/level.svg" alt="Level" width="30">
-                            <h5 class="mb-0">Beginner Level</h5>
-                        </div>
-                    </li>
-
-                    <li class="col-6 col-lg text-center text-lg-start">
-                        <div class="grid-inner px-5">
-                            <img src="recipes/images/icons/timer.svg" alt="Timer" width="30">
-                            <h5 class="mb-0">40 Mins</h5>
-                        </div>
-                    </li> --}}
-
                     <li class="col-6 col-md-2 text-center text-lg-start">
                         <div class="grid-inner px-5">
                             <img src="{{asset('recipes/images/icons/ingredients.svg')}}" alt="Ingredients" width="30">
@@ -126,7 +112,7 @@
                         </div>
                         <div class="col-lg-8 mt-5 mt-lg-0">
                             <h4>Photo</h4>
-                            <div class="rounded position-relative dark mb-5" style="background: url({{ url('http://recipes-admin.test/img/recipe')}}/{{$recipe->imageDetail}}) no-repeat center center / cover; min-height: 300px"></div>
+                            <div class="rounded position-relative dark mb-5" style="background: url({{ url('https://recipe-admin.ranggacaw.com/img/recipe')}}/{{$recipe->imageDetail}}); min-height: 300px"></div>
                             <h4>Preparation</h4>
                             <div class="px-5">
                                 {!! $recipe->content !!}
@@ -140,7 +126,7 @@
 
                                 <!-- Comments List
                                 ============================================= -->
-                                <ol class="commentlist clearfix">
+                                {{-- <ol class="commentlist clearfix">
 
                                     <li class="comment even thread-even depth-1" id="li-comment-1">
 
@@ -207,7 +193,8 @@
 
                                     </li>
 
-                                </ol><!-- .commentlist end -->
+                                </ol> --}}
+                                <!-- .commentlist end -->
 
                                 <div class="clear"></div>
 
