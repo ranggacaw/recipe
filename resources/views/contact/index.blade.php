@@ -8,8 +8,8 @@
     <div class="container clearfix">
         <div class="row">
             <div class="col-md-7">
-                <h1 class="nott mb-3" data-animate="zoomIn">Contact Us</h1>
-                <span data-animate="zoomIn" data-delay="300" class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                <h1 class="nott mb-3" data-animate="zoomIn">Kontak Kami</h1>
+                <span data-animate="zoomIn" data-delay="300" class="text-white-50">Kami percaya bahwa setiap hidangan memiliki cerita dan keunikan tersendiri, dan kami ingin membantu Anda menemukan dan menciptakan momen-momen istimewa melalui masakan.</span>
             </div>
         </div>
     </div>
@@ -27,14 +27,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="nott mb-5">Get Connect with Us!</h2>
-                    <p class="lead">Questions? Comments? Please fill out the Form or Email us at <a href="mailto:noreply@canvas.com">noreply@canvas.com</a>.</p>
+                    <p class="lead">Pertanyaan? Komentar? Isi form disamping atau Email kami di <a href="mailto:ranggacahyaw@gmail.com">ranggacahyaw@gmail.com</a>.</p>
                     <p>Thank you for being in touch!</p>
                     <div class="line line-sm"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga debitis deleniti dolores cupiditate quia reiciendis, obcaecati facere. Amet et enim itaque sapiente. Culpa, incidunt,p eveniet.</p>
-                    <p>Collaboratively redefine fully tested processes and extensible partnerships. Professionally exploit team building opportunities rather than client-focused e-markets. Objectively deliver functionalized platforms through client-centric.</p>
+                    <p>Kami senang mendengar dari Anda! Apakah Anda memiliki pertanyaan, saran, atau hanya ingin berbagi cerita sukses dari dapur Anda, jangan ragu untuk menghubungi kami melalui [email/medsos].</p>
                 </div>
                 <div class="col-md-6">
-                <h4>Send us an Email</h4>
+                <h4>Email Kami</h4>
 
                 <div class="form-widget" data-alert-type="inline">
 
@@ -49,7 +48,7 @@
                         </div>
 
                         <div class="col-md-6 form-group">
-                            <label class="nott ls0 fw-normal" for="recipe-contactform-name">Name <small>*</small></label>
+                            <label class="nott ls0 fw-normal" for="recipe-contactform-name">Nama <small>*</small></label>
                             <input type="text" id="recipe-contactform-name" name="recipe-contactform-name" value="" class="form-control form-control-pill required" />
                         </div>
 
@@ -65,11 +64,6 @@
                             <input type="text" id="recipe-contactform-phone" name="recipe-contactform-phone" value="" class="form-control form-control-pill" />
                         </div>
 
-                        <div class="col-md-6 form-group">
-                            <label class="nott ls0 fw-normal" for="recipe-contactform-subject">Subject <small>*</small></label>
-                            <input type="text" id="recipe-contactform-subject" name="subject" value="" class="required form-control form-control-pill" />
-                        </div>
-
                         <div class="w-100"></div>
 
                         <div class="col-12 form-group">
@@ -82,7 +76,7 @@
                         </div>
 
                         <div class="col-12 form-group">
-                            <button class="button button-circle button-large m-0" type="submit" id="recipe-contactform-submit" name="recipe-contactform-submit" value="submit">Send Message</button>
+                            <button class="button button-circle button-large m-0" type="submit" id="recipe-contactform-submit" name="recipe-contactform-submit" value="submit">Kirim</button>
                         </div>
 
                         <input type="hidden" name="prefix" value="recipe-contactform-">

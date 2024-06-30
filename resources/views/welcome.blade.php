@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2 center">
                         <h2 class="text-title-light text-dark mb-5 ls1 text-uppercase">Hai Sahabat F&B !</h2>
-                        <p style="font-size: 17px; color: #777">Kami adalah sekelompok pecinta makanan dan minuman yang berdedikasi untuk berbagi kelezatan dari berbagai belahan dunia. Dengan passion dan kreativitas, kami menghadirkan resep-resep yang dapat dinikmati oleh semua orang, dari pemula hingga koki berpengalaman.<br><br>Cheers to all that you do!</p>
+                        <p style="font-size: 17px; color: #777">Kami adalah sekelompok pecinta makanan dan minuman yang berdedikasi untuk berbagi kelezatan dari berbagai belahan dunia. Dengan passion dan kreativitas, kami menghadirkan resep-resep yang dapat dinikmati oleh semua orang, dari pemula hingga koki berpengalaman.<br><br>Kamu juga bisa loh menulis <a href="https://recipe-admin.ranggacaw.com/" target="_blank" rel="noopener noreferrer">resep disni</a>!</p>
                     </div>
                     <div class="col-12 mt-5 mb-3">
                         <h3 class="center">Pilih Kategori</h3>
@@ -55,8 +55,8 @@
             <div class="row align-items-stretch align-content-stretch g-0">
                 <div class="col-lg-4 dark">
                     <div class="position-sticky min-vh-60 min-vh-md-100 d-flex flex-column align-items-center center justify-content-center" style="top:0; background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)), url('recipes/images/popular/side-bg.jpg') center center / cover;">
-                        <h2 class="display-4 px-3 center fw-bold d-block">Latest<br>Recipes</h2>
-                        <a href="recipes/recipes.html" class="button button-large button-light button-white button-circle m-0 px-5">View All</a>
+                        <h2 class="display-4 px-3 center fw-bold d-block">Resep<br>Terbaru</h2>
+                        <a href="recipes/recipes.html" class="button button-large button-light button-white button-circle m-0 px-5">Lihat Semua</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -248,7 +248,7 @@
 
         <div class="section bg-transparent" style="padding: 100px 0">
             <div class="container">
-                <h2 class="text-title-light" style="margin: 0 0 -20px 15px;">Recipes of the Week</h2>
+                <h2 class="text-title-light" style="margin: 0 0 -20px 15px;">Resep Minggu Ini</h2>
                 <div id="recipes-carousel" class="owl-carousel carousel-widget" data-margin="0" data-nav="true" data-pagi="false" data-items="1">
                     <div class="row g-0 align-items-stretch rounded shadow">
                         <div class="col-lg-5 rounded-start" style="background: url('recipes/images/recipe-week.jpg') no-repeat center center / cover; min-height: 300px">
@@ -263,12 +263,12 @@
                                 <ul class="list-unstyled">
                                     <li class="d-inline-block me-4">
                                         <img src="recipes/images/icons/timer-dark.svg" alt="Timer" width="30">
-                                        <h5 class="mb-0">40 Mins</h5>
+                                        <h5 class="mb-0">40 Menit</h5>
                                     </li>
 
                                     <li class="d-inline-block me-4">
                                         <img src="recipes/images/icons/ingredients-dark.svg" alt="ingredients" width="30">
-                                        <h5 class="mb-0">9 Ingredients</h5>
+                                        <h5 class="mb-0">9 Bahan-bahan</h5>
                                     </li>
 
                                     <li class="d-inline-block">
@@ -277,7 +277,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div><a href="recipes/recipe-single.html" class="button button-circle button-large m-0 fw-semibold nott ls0 text-end">View Recipe <i class="icon-angle-right"></i></a></div>
+                            <div><a href="recipes/recipe-single.html" class="button button-circle button-large m-0 fw-semibold nott ls0 text-end">Lihat Resep <i class="icon-angle-right"></i></a></div>
                         </div>
                     </div>
 
@@ -294,12 +294,12 @@
                                 <ul class="list-unstyled">
                                     <li class="d-inline-block me-4">
                                         <img src="recipes/images/icons/timer-dark.svg" alt="Timer" width="30">
-                                        <h5 class="mb-0">32 Mins</h5>
+                                        <h5 class="mb-0">32 Menit</h5>
                                     </li>
 
                                     <li class="d-inline-block me-4">
                                         <img src="recipes/images/icons/ingredients-dark.svg" alt="ingredients" width="30">
-                                        <h5 class="mb-0">5 Ingredients</h5>
+                                        <h5 class="mb-0">5 Bahan-bahan</h5>
                                     </li>
 
                                     <li class="d-inline-block">
@@ -308,7 +308,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div><a href="recipes/recipe-single.html" class="button button-circle button-large m-0 fw-semibold ls0 nott text-end">View Recipe <i class="icon-angle-right"></i></a></div>
+                            <div><a href="recipes/recipe-single.html" class="button button-circle button-large m-0 fw-semibold ls0 nott text-end">Lihat Resep <i class="icon-angle-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -319,8 +319,8 @@
             <div class="container">
                 <div class="row clearfix">
                     <div class="heading-block center col-md-6 offset-3">
-                        <h2 class="mb-3">Our Latest Updates</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae veniam quam incidunt eos eaque esse ducimus dolore, velit, laborum dignissimos?</p>
+                        <h2 class="mb-3">Update Artikel Terbaru</h2>
+                        <p>Menginspirasi dan mempermudah Anda dalam mengeksplorasi dunia kuliner. Kami percaya bahwa setiap hidangan memiliki cerita dan keunikan tersendiri, dan kami ingin membantu Anda menemukan dan menciptakan momen-momen istimewa melalui artikel masakan.</p>
                     </div>
                 </div>
                 <div class="clear"></div>

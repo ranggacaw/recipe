@@ -34,9 +34,9 @@
                         @if (Route::has('login'))
                             @auth
                                 <li class="menu-item"><a href="{{ url('/') }}" class="menu-link"><div>Home</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ url('recipe') }}"><div>Recipes</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ url('about') }}"><div>About Us</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ url('contact') }}"><div>Contact Us</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ url('recipe') }}"><div>Resep</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ url('about') }}"><div>Tentang Kami</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ url('contact') }}"><div>Kontak</div></a></li>
                                 <li class="menu-item">
                                     <a href="{{ route('logout') }}" class="menu-link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                         <div>Log Out</div>
@@ -47,10 +47,10 @@
                                 </form>
                             @else
                                 <li class="menu-item"><a href="{{ url('/') }}" class="menu-link"><div>Home</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ url('recipe') }}"><div>Recipes</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ url('about') }}"><div>About Us</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ url('contact') }}"><div>Contact Us</div></a></li>
-                                <li class="menu-item"><a href="{{ route('login') }}" class="menu-link"><div>Log in</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ url('recipe') }}"><div>Resep</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ url('about') }}"><div>Tentang Kami</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ url('contact') }}"><div>Kontak</div></a></li>
+                                <li class="menu-item"><a href="{{ route('login') }}" class="menu-link"><div>Login</div></a></li>
                                 @if (Route::has('register'))
                                     <li class="menu-item"><a href="{{ route('register') }}" class="menu-link"><div>Register</div></a></li>
                                 @endif

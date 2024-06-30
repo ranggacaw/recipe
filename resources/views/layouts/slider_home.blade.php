@@ -120,12 +120,12 @@
                             <ul class="list-unstyled dark">
                                 <li class="d-inline-block">
                                     <img src="recipes/images/icons/timer.svg" alt="Timer" width="30">
-                                    <h4>40 Mins</h4>
+                                    <h4>40 Menit</h4>
                                 </li>
 
                                 <li class="d-inline-block">
                                     <img src="recipes/images/icons/ingredients.svg" alt="ingredients" width="30">
-                                    <h4>9 Ingredients</h4>
+                                    <h4>9 Bahan - bahan</h4>
                                 </li>
 
                                 <li class="d-inline-block">
@@ -149,7 +149,7 @@
                             data-fontsize="['17', '17', '15', '15']"
                             data-lineheight="['40', '40', '30', '30']"
                             data-frames='[{"delay":3000,"speed":1600,"frame":"0","from":"x:50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#FFF","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#FFF","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:#000;"}]'
-                            style="z-index: 9; background-color: #FFF; padding: 4px 28px"><span>View Recipe</span> <i class="icon-angle-right"></i>
+                            style="z-index: 9; background-color: #FFF; padding: 4px 28px"><span>Lihat Resep</span> <i class="icon-angle-right"></i>
                         </a>
                     </li>
                     <!-- SLIDE  -->
@@ -266,12 +266,12 @@
                             <ul class="list-unstyled">
                                 <li class="d-inline-block">
                                     <img src="recipes/images/icons/timer-dark.svg" alt="Timer" width="30">
-                                    <h4>37 Mins</h4>
+                                    <h4>37 Menit</h4>
                                 </li>
 
                                 <li class="d-inline-block">
                                     <img src="recipes/images/icons/ingredients-dark.svg" alt="ingredients" width="30">
-                                    <h4>11 Ingredients</h4>
+                                    <h4>11 Bahan - bahan</h4>
                                 </li>
 
                                 <li class="d-inline-block">
@@ -294,7 +294,7 @@
                             data-fontsize="['17', '17', '15', '15']"
                             data-lineheight="['40', '40', '36', '30']"
                             data-frames='[{"delay":3000,"speed":1600,"frame":"0","from":"x:50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#FFF","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#FFF","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:#000;"}]'
-                            style="z-index: 9; background-color: #FFF; padding: 4px 28px"><span>View Recipe</span> <i class="icon-angle-right"></i>
+                            style="z-index: 9; background-color: #FFF; padding: 4px 28px"><span>Lihat Resep</span> <i class="icon-angle-right"></i>
                         </a>
                     </li>
                 </ul>

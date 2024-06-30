@@ -12,15 +12,15 @@
                     &copy; 2023 by Ranggacaw.
                 </div>
                 <div class="col-sm-4 d-flex justify-content-sm-center mb-3 mb-sm-0">
-                    <a href="https://facebook.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-facebook" title="Facebook">
+                    <a href="https://www.facebook.com/ranggacahyaw" target="_blank" class="social-icon si-small si-colored si-facebook" title="Facebook">
                         <i class="icon-facebook"></i>
                         <i class="icon-facebook"></i>
                     </a>
-                    <a href="https://www.youtube.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-youtube" title="youtube">
+                    <a href="https://www.youtube.com/@ranggacaw" target="_blank" class="social-icon si-small si-colored si-youtube" title="youtube">
                         <i class="icon-youtube"></i>
                         <i class="icon-youtube"></i>
                     </a>
-                    <a href="https://www.instagram.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-instagram" title="instagram">
+                    <a href="https://www.instagram.com/ranggacaw" target="_blank" class="social-icon si-small si-colored si-instagram" title="instagram">
                         <i class="icon-instagram"></i>
                         <i class="icon-instagram"></i>
                     </a>

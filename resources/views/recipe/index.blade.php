@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-7">
                 <h1 class="nott mb-5" data-animate="zoomIn">Recipes</h1>
-                <span data-animate="zoomIn" data-delay="300" class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga debitis deleniti dolores cupiditate quia reiciendis, obcaecati facere. Amet et enim itaque sapiente. Culpa, incidunt, eveniet.</span>
+                <span data-animate="zoomIn" data-delay="300" class="text-white-50">Makanan dan minuman segar, dari jus buah segar, smoothies sehat, hingga minuman beralkohol yang menggugah selera.</span>
             </div>
         </div>
     </div>
