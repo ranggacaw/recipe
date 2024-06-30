@@ -89,25 +89,13 @@
                             </ul>
                             <div class="line line-sm"></div>
                             <h4>Share:</h4>
-                            <a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ urlencode(request()->fullUrl()) }}" class="social-icon si-small si-colored si-facebook" title="Facebook">
                                 <i class="icon-facebook"></i>
                                 <i class="icon-facebook"></i>
                             </a>
-                            <a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
+                            <a href="https://twitter.com/intent/tweet?url={{ urlencode(request()->fullUrl()) }}&text={{ urlencode($recipe->title) }}" class="social-icon si-small si-colored si-twitter" title="Twitter">
                                 <i class="icon-twitter"></i>
                                 <i class="icon-twitter"></i>
-                            </a>
-                            <a href="#" class="social-icon si-small si-colored si-pinterest" title="Pinterest">
-                                <i class="icon-pinterest"></i>
-                                <i class="icon-pinterest"></i>
-                            </a>
-                            <a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
-                                <i class="icon-instagram"></i>
-                                <i class="icon-instagram"></i>
-                            </a>
-                            <a href="#" class="social-icon si-small si-colored si-email3" title="Email">
-                                <i class="icon-email3"></i>
-                                <i class="icon-email3"></i>
                             </a>
                         </div>
                         <div class="col-lg-8 mt-5 mt-lg-0">
