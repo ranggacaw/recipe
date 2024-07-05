@@ -10,7 +10,7 @@
             <div class="col-md-8">
                 <h1 class="nott mb-5" data-animate="zoomIn">We Serve The Best Quality Food</h1>
                 <span data-animate="zoomIn" data-delay="300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga debitis deleniti dolores cupiditate quia reiciendis, obcaecati facere. Amet et enim itaque sapiente. Culpa, incidunt, eveniet.</span>
-                <a href="recipes.html" class="button button-large button-circle ms-0 mt-5 px-4" data-animate="zoomIn" data-delay="500">View All Recipes</a>
+                <a href="{{url('recipe')}}" class="button button-large button-circle ms-0 mt-5 px-4" data-animate="zoomIn" data-delay="500">View All Recipes</a>
             </div>
             <div class="col-md-4">
                 <a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe" class="play-video">

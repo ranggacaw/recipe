@@ -15,9 +15,9 @@
     </div>
 
 </section><!-- #page-title end -->
-
 <!-- Content
 ============================================= -->
+
 <section id="content">
     <div class="content-wrap py-0" style="overflow: inherit;">
 
@@ -26,20 +26,24 @@
                 <div class="col-lg-9 border-end-0 bg-white">
                     <div class="row g-0">
 
-                        @foreach ($recipe as $item)
-                            <div class="col-sm-3 col-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <img class="w-75 d-block m-auto" src="{{ url('https://recipe-admin.ranggacaw.com/img/recipe')}}/{{$item->image}}" alt="image">
-                                        <div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-                                            <p class="card-author">By <a href="{{ url('recipe-details') }}/{{$item->id}}">{{ $item->users->name ?? 'None' }}</a></p>
+                        @if ($recipe->isNotEmpty())
+                            @foreach ($recipe as $item)
+                                <div class="col-sm-3 col-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img class="w-75 d-block m-auto" src="{{ url('https://recipe-admin.ranggacaw.com/img/recipe')}}/{{$item->image}}" alt="image">
+                                            <div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+                                                <p class="card-author">By <a href="{{ url('recipe-details') }}/{{$item->id}}">{{ $item->users->name ?? 'None' }}</a></p>
+                                            </div>
+                                            <h3 class="card-title"><a href="{{ url('recipe-details') }}/{{$item->id}}" class="stretched-link">{{ $item->name }}</a></h3>
+                                            <h5 class="card-date"><i class="icon-line2-calendar"></i>{{ $item->created_at->format('y-m-d') }}</h5>
                                         </div>
-                                        <h3 class="card-title"><a href="{{ url('recipe-details') }}/{{$item->id}}" class="stretched-link">{{ $item->name }}</a></h3>
-                                        <h5 class="card-date"><i class="icon-line2-calendar"></i>{{ $item->created_at->format('y-m-d') }}</h5>
                                     </div>
                                 </div>
-                            </div>
-                        @endforeach
+                            @endforeach
+                        @else
+                            <P class="p-5">Belum ada resep <span class="text-lowercase">{{$category_name->name}}.</span></P>
+                        @endif
 
                         <div class="col-12 d-flex justify-content-end p-4">
                             <a href="#" class="button button-circle m-0 text-end"><span>Next</span><i class="icon-angle-right"></i></a>
@@ -92,4 +96,5 @@
 
     </div>
 </section><!-- #content end -->
+    
 @endsection

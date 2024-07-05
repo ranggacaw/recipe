@@ -15,7 +15,8 @@
                     <li class="col-6 col-md-2 text-center text-lg-start">
                         <div class="grid-inner px-5">
                             <img src="{{asset('recipes/images/icons/ingredients.svg')}}" alt="Ingredients" width="30">
-                            <h5 class="mb-0">9 Ingredients</h5>
+                            <h5 class="mb-0">
+                                {{ $ingredients_coma }} Ingredients</h5>
                         </div>
                     </li>
 
@@ -43,14 +44,10 @@
                     <div class="row align-items-center justify-content-between py-3">
                         <div class="col-12 col-xl">
                             <div class="row col-mb-30">
-                                <div class="col-4 col-md col-lg-2">
+                                <div class="col-4 col-md col-lg-3">
                                     <h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Category</h6>
                                     <h4 class="mb-0">
-                                        @if ($recipe->category !=1 )
-                                            Ice
-                                        @else
-                                            Hot
-                                        @endif
+                                        {{$recipe->categories->name}}
                                     </h4>
                                 </div>
 
@@ -61,10 +58,10 @@
                                     </h4>
                                 </div>
 
-                                <div class="col-4 col-md col-lg-2">
+                                {{-- <div class="col-4 col-md col-lg-2">
                                     <h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Sugar</h6>
                                     <h4 class="mb-0">12gm</h4>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
 

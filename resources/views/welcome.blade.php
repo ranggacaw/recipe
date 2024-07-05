@@ -56,7 +56,7 @@
                 <div class="col-lg-4 dark">
                     <div class="position-sticky min-vh-60 min-vh-md-100 d-flex flex-column align-items-center center justify-content-center" style="top:0; background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)), url('recipes/images/popular/side-bg.jpg') center center / cover;">
                         <h2 class="display-4 px-3 center fw-bold d-block">Resep<br>Terbaru</h2>
-                        <a href="recipes/recipes.html" class="button button-large button-light button-white button-circle m-0 px-5">Lihat Semua</a>
+                        <a href="{{url('recipe')}}" class="button button-large button-light button-white button-circle m-0 px-5">Lihat Semua</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -71,7 +71,7 @@
                                         <p class="card-author">By <a href="#">Gunther Beard</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.6</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Green Goddess Avocado Hummus</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Green Goddess Avocado Hummus</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Dec 26, 2021</h5>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                         <p class="card-author">By <a href="#">Chauffina Carr</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.9</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Strawberry Kiwi Healthy Bowl</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Strawberry Kiwi Healthy Bowl</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Dec 1, 2021</h5>
                                 </div>
                             </div>
@@ -101,7 +101,7 @@
                                         <p class="card-author">By <a href="#">Eric Widget </a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Rustic Sweet Treat</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Rustic Sweet Treat</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Nov 20, 2021</h5>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                                         <p class="card-author">By <a href="#">Quiche Hollandaise</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">A Delicious Homemade Breakfast</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">A Delicious Homemade Breakfast</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Oct 2, 2021</h5>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                         <p class="card-author">By <a href="#">Norman Gordon</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Pumpkin Bars with Cream Cheese Frosting</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Pumpkin Bars with Cream Cheese Frosting</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Sep 18, 2021</h5>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@
                                         <p class="card-author">By <a href="#">Druid Wensleydale</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">The Best Homemade Pizza Recipes</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">The Best Homemade Pizza Recipes</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Sep 7, 2021</h5>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                                         <p class="card-author">By <a href="#">Bailey Wonger</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Baked Salmon with Sweet-Potatoes</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Baked Salmon with Sweet-Potatoes</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Aug 12, 2021</h5>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
                                         <p class="card-author">By <a href="#">Pelican Steve</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.2</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">A Kollam Grilled Cheese with Vegetables</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">A Kollam Grilled Cheese with Vegetables</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Aug 8, 2021</h5>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@
                                         <p class="card-author">By <a href="#">Malcolm Function</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Garden Veggie Delux Pizza</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Garden Veggie Delux Pizza</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Jul 26, 2021</h5>
                                 </div>
                             </div>
@@ -206,7 +206,7 @@
                                         <p class="card-author">By <a href="#">Dianne Ameter</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Spinach Artichoke Dip Pasta with Chicken</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Spinach Artichoke Dip Pasta with Chicken</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>Jun 15, 2021</h5>
                                 </div>
                             </div>
@@ -221,7 +221,7 @@
                                         <p class="card-author">By <a href="#">Weir Doe</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.4</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Quick Black Pepper Pork Lunch</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Quick Black Pepper Pork Lunch</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>May 11, 2021</h5>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@
                                         <p class="card-author">By <a href="#">Niles Peppertrout</a></p>
                                         <span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
                                     </div>
-                                    <h3 class="card-title"><a href="recipes/recipe-single.html" class="stretched-link">Afternoon Plates of Pasta</a></h3>
+                                    <h3 class="card-title"><a href="#" class="stretched-link">Afternoon Plates of Pasta</a></h3>
                                     <h5 class="card-date"><i class="icon-line2-calendar"></i>May 4, 2021</h5>
                                 </div>
                             </div>
@@ -277,7 +277,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div><a href="recipes/recipe-single.html" class="button button-circle button-large m-0 fw-semibold nott ls0 text-end">Lihat Resep <i class="icon-angle-right"></i></a></div>
+                            <div><a href="#" class="button button-circle button-large m-0 fw-semibold nott ls0 text-end">Lihat Resep <i class="icon-angle-right"></i></a></div>
                         </div>
                     </div>
 
@@ -308,7 +308,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div><a href="recipes/recipe-single.html" class="button button-circle button-large m-0 fw-semibold ls0 nott text-end">Lihat Resep <i class="icon-angle-right"></i></a></div>
+                            <div><a href="#" class="button button-circle button-large m-0 fw-semibold ls0 nott text-end">Lihat Resep <i class="icon-angle-right"></i></a></div>
                         </div>
                     </div>
                 </div>

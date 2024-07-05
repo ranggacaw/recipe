@@ -136,7 +136,7 @@
                         </div>
 
                         <a class="tp-caption rev-btn button button-large m-0 button-white fw-bold button-circle button-light"
-                            href="recipes/recipe-single.html" target="_blank"
+                            href="{{url('recipe')}}" target="_blank"
                             id="slide-7-layer-13"
                             data-x="['left','left','middle','middle']" data-hoffset="['0','30','0','0']"
                             data-y="['middle','middle','bottom','bottom']" data-voffset="['200','200','30','0']"
@@ -281,7 +281,7 @@
                             </ul>
                         </div>
                         <a class="tp-caption rev-btn button button-large m-0 button-white fw-bold button-circle button-light"
-                            href="recipes/recipe-single.html" target="_blank"
+                            href="{{url('recipe')}}" target="_blank"
                             id="slide-7-layer-13"
                             data-x="['left','left','middle','middle']" data-hoffset="['0','30','0','0']"
                             data-y="['middle','middle','bottom','bottom']" data-voffset="['200','200','30','0']"

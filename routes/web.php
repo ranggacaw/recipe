@@ -31,3 +31,4 @@ Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])
 // recipe
 Route::get('/recipe', [App\Http\Controllers\RecipeController::class, 'index'])->name('recipe.index');
 Route::get('/recipe-details/{id}', [App\Http\Controllers\RecipeController::class, 'details'])->name('recipe.details');
+Route::get('/recipe/{id}', [App\Http\Controllers\RecipeController::class, 'show'])->name('recipe.show');

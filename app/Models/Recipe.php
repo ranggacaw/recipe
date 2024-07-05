@@ -19,6 +19,11 @@ class Recipe extends Model
         return $this->hasMany(Comment::class);
     }
 
+    public function categories() 
+    {
+        return $this->belongsTo(Category::class, 'category');
+    }
+
     protected $fillable = [ 
         'name', 
         'category', 
